@@ -4,14 +4,19 @@
     "buildx",
     "Buildx",
     "Dockerfiles",
+    "DOCKERHUB",
+    "github",
     "gitops",
     "GOARCH",
     "gofmt",
     "goserver",
     "higorrsc",
     "hrsc",
+    "imranismail",
     "indentação",
     "indentar",
+    "kustomization",
+    "kustomize",
     "Makefiles"
   ]
 }
