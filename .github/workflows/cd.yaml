@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: 1.24.6
 
@@ -35,4 +35,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: higorrsc/fc-hrsc-gitops:latest
+          tags: |
+            higorrsc/fc-hrsc-gitops:${{ github.sha }}
+            higorrsc/fc-hrsc-gitops:latest
