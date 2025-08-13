@@ -8,4 +8,4 @@ resources:
 images:
 - name: goserver
   newName: higorrsc/fc-hrsc-gitops
-  newTag: 1e13de60e5a21c71ec1af876755250719065e9d6
+  newTag: 5d3349fe51c7191f4efb4d67549d9692782fef0a
